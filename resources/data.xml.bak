@@ -16,6 +16,14 @@
             <poly data="4,0,0,750,0,750,750,0,750" density="0.1" fric="0.2" gid="-1000" id="0" name="Cherry" rest="0.0" sensor="false"/>
         </anim>
     </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="8" fixedrot="false" fric="0.2" gid="3" id="17" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="dirt" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="18" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="800" id="18" name="dirt" shared="false" width="800">
+        <anim across="1" down="1" durations="100" height="800" id="0" loop="true" name="Animation 0" numframes="1" originx="400" originy="400" sync="false" version="2" width="800">
+            <poly data="4,0,0,800,0,800,800,0,800" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
     <background atlasID="0" desc="" durations="100" dx="-0.0" dy="-0.0" height="1200" id="14" name="Garden" numframes="1" oid="-1" repeats="false" resized="false" shared="false" width="1600" xpf="1.0" ypf="1.0"/>
     <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="5" fixedrot="false" fric="0.2" gid="3" id="10" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="Grapes" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="11" static="false">
         <snippets/>
@@ -23,6 +31,14 @@
     <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="750" id="11" name="Grapes" shared="false" width="750">
         <anim across="1" down="1" durations="100" height="750" id="0" loop="true" name="Animation 0" numframes="1" originx="375" originy="375" sync="false" version="2" width="750">
             <poly data="4,0,0,750,0,750,750,0,750" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="7" fixedrot="false" fric="0.2" gid="3" id="15" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="Grass" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="16" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="800" id="16" name="Grass" shared="false" width="800">
+        <anim across="1" down="1" durations="100" height="800" id="0" loop="true" name="Animation 0" numframes="1" originx="400" originy="400" sync="false" version="2" width="800">
+            <poly data="4,0,0,800,0,800,800,0,800" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
         </anim>
     </sprite>
     <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="4" fixedrot="false" fric="0.2" gid="3" id="8" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="Pineapple" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="9" static="false">
@@ -53,7 +69,7 @@
         <snippets/>
     </actor>
     <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="925" id="1" name="Worm" shared="false" width="925">
-        <anim across="2" down="2" durations="500,500,500,500" height="1850" id="0" loop="true" name="Worm" numframes="4" originx="25" originy="25" sync="false" version="2" width="1850">
+        <anim across="2" down="1" durations="500,500" height="925" id="0" loop="true" name="Worm" numframes="2" originx="25" originy="25" sync="false" version="2" width="1850">
             <poly data="4,0,0,50,0,50,50,0,50" density="0.1" fric="0.2" gid="-1000" id="0" name="Worm" rest="0.0" sensor="false"/>
         </anim>
     </sprite>
