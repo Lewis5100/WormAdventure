@@ -3,17 +3,17 @@
     <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="2" fixedrot="false" fric="0.2" gid="3" id="4" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="Apple" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="5" static="false">
         <snippets/>
     </actor>
-    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="16" id="5" name="Apple" shared="false" width="16">
-        <anim across="1" down="1" durations="100" height="16" id="0" loop="true" name="Apple" numframes="1" originx="60" originy="60" sync="false" version="2" width="16">
-            <poly data="4,0,0,126,0,126,126,0,126" density="0.1" fric="0.2" gid="-1000" id="0" name="Apple" rest="0.0" sensor="false"/>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="168" id="5" name="Apple" shared="false" width="168">
+        <anim across="2" down="2" durations="1000,1000,1000,1000" height="336" id="0" loop="true" name="Apple" numframes="4" originx="60" originy="60" sync="false" version="2" width="336">
+            <poly data="4,0,0,168,0,168,168,0,168" density="0.1" fric="0.2" gid="-1000" id="0" name="Apple" rest="0.0" sensor="false"/>
         </anim>
     </sprite>
     <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="6" fixedrot="false" fric="0.2" gid="3" id="12" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="Cherry" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="13" static="false">
         <snippets/>
     </actor>
-    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="750" id="13" name="Cherry" shared="false" width="750">
-        <anim across="1" down="1" durations="100" height="750" id="0" loop="true" name="Cherry" numframes="1" originx="375" originy="375" sync="false" version="2" width="750">
-            <poly data="4,0,0,750,0,750,750,0,750" density="0.1" fric="0.2" gid="-1000" id="0" name="Cherry" rest="0.0" sensor="false"/>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="120" id="13" name="Cherry" shared="false" width="120">
+        <anim across="1" down="1" durations="100" height="120" id="0" loop="true" name="Cherry" numframes="1" originx="60" originy="60" sync="false" version="2" width="120">
+            <poly data="4,0,0,120,0,120,120,0,120" density="0.1" fric="0.2" gid="-1000" id="0" name="Cherry" rest="0.0" sensor="false"/>
         </anim>
     </sprite>
     <tileset across="2" atlasID="0" desc="" down="1" id="20" name="dirty" oid="-1" shared="false" th="8" tw="8">
@@ -24,9 +24,9 @@
     <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="5" fixedrot="false" fric="0.2" gid="3" id="10" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="Grapes" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="11" static="false">
         <snippets/>
     </actor>
-    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="750" id="11" name="Grapes" shared="false" width="750">
-        <anim across="1" down="1" durations="100" height="750" id="0" loop="true" name="Animation 0" numframes="1" originx="375" originy="375" sync="false" version="2" width="750">
-            <poly data="4,0,0,750,0,750,750,0,750" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="120" id="11" name="Grapes" shared="false" width="120">
+        <anim across="1" down="1" durations="100" height="120" id="0" loop="true" name="Animation 0" numframes="1" originx="60" originy="60" sync="false" version="2" width="120">
+            <poly data="4,0,0,120,0,120,120,0,120" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
         </anim>
     </sprite>
     <tileset across="5" atlasID="0" desc="" down="6" id="19" name="grass" oid="-1" shared="false" th="8" tw="8">
@@ -64,33 +64,87 @@
     <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="4" fixedrot="false" fric="0.2" gid="3" id="8" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="Pineapple" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="9" static="false">
         <snippets/>
     </actor>
-    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="500" id="9" name="Pineapple" shared="false" width="500">
-        <anim across="1" down="1" durations="100" height="500" id="0" loop="true" name="Animation 0" numframes="1" originx="250" originy="250" sync="false" version="2" width="500">
-            <poly data="4,0,0,500,0,500,500,0,500" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="176" id="9" name="Pineapple" shared="false" width="176">
+        <anim across="1" down="1" durations="100" height="176" id="0" loop="true" name="Animation 0" numframes="1" originx="88" originy="88" sync="false" version="2" width="176">
+            <poly data="4,0,0,176,0,176,176,0,176" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="8" fixedrot="false" fric="0.2" gid="3" id="21" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="Pumpkin" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="22" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="258" id="22" name="Pumpkin" shared="false" width="258">
+        <anim across="1" down="1" durations="100" height="258" id="0" loop="true" name="Animation 0" numframes="1" originx="129" originy="129" sync="false" version="2" width="258">
+            <poly data="4,0,0,258,0,258,258,0,258" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
         </anim>
     </sprite>
     <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="3" fixedrot="false" fric="0.2" gid="3" id="6" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="Strawberry" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="7" static="false">
         <snippets/>
     </actor>
-    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="750" id="7" name="Strawberry" shared="false" width="750">
-        <anim across="1" down="1" durations="100" height="750" id="0" loop="true" name="Animation 0" numframes="1" originx="375" originy="375" sync="false" version="2" width="750">
-            <poly data="4,0,0,750,0,750,750,0,750" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="120" id="7" name="Strawberry" shared="false" width="120">
+        <anim across="1" down="1" durations="100" height="120" id="0" loop="true" name="Animation 0" numframes="1" originx="60" originy="60" sync="false" version="2" width="120">
+            <poly data="4,0,0,120,0,120,120,0,120" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
         </anim>
     </sprite>
     <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="1" fixedrot="false" fric="0.2" gid="3" id="2" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="Watermelon" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="3" static="false">
         <snippets/>
     </actor>
-    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="500" id="3" name="Watermelon" shared="false" width="500">
-        <anim across="1" down="1" durations="100" height="500" id="0" loop="true" name="Watermelon" numframes="1" originx="250" originy="250" sync="false" version="2" width="500">
-            <poly data="4,0,0,500,0,500,500,0,500" density="0.1" fric="0.2" gid="-1000" id="0" name="Watermelon" rest="0.0" sensor="false"/>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="120" id="3" name="Watermelon" shared="false" width="120">
+        <anim across="1" down="1" durations="100" height="120" id="0" loop="true" name="Watermelon" numframes="1" originx="60" originy="60" sync="false" version="2" width="120">
+            <poly data="4,0,0,120,0,120,120,0,120" density="0.1" fric="0.2" gid="-1000" id="0" name="Watermelon" rest="0.0" sensor="false"/>
         </anim>
     </sprite>
-    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="0" fixedrot="false" fric="0.2" gid="3" id="0" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="Worm" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="1" static="false">
-        <snippets/>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="0" fixedrot="true" fric="0.2" gid="3" id="0" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="Worm" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="1" static="false">
+        <snippets>
+            <s enabled="false" id="9">
+                <prop id="2147483647" list="0" val="thisactor"/>
+                <prop id="33" list="0" val="left"/>
+                <prop id="34" list="0" val="right"/>
+                <prop id="37" list="0" val="0"/>
+                <prop id="38" list="0" val="true"/>
+                <prop id="39" list="0" val="true"/>
+                <prop id="40" list="0" val="0.0"/>
+                <prop id="41" list="0" val="Worm 2"/>
+                <prop id="42" list="0" val="Worm 2"/>
+                <prop id="11" list="0" val="20.0"/>
+                <prop id="43" list="0" val="Worm"/>
+                <prop id="44" list="0" val="Worm"/>
+                <prop id="45" list="0" val="true"/>
+                <prop id="46" list="0" val="true"/>
+            </s>
+            <s enabled="true" id="11">
+                <prop id="2147483647" list="0" val="thisactor"/>
+                <prop id="33" list="0" val="left"/>
+                <prop id="34" list="0" val="right"/>
+                <prop id="37" list="0" val="0.0"/>
+                <prop id="38" list="0" val="true"/>
+                <prop id="41" list="0" val="up"/>
+                <prop id="42" list="0" val="false"/>
+                <prop id="43" list="0" val="false"/>
+                <prop id="11" list="0" val="20.0"/>
+                <prop id="45" list="0" val="20.0"/>
+                <prop id="47" list="0" val="Worm"/>
+                <prop id="48" list="0" val="Worm 2"/>
+                <prop id="49" list="0" val="Worm"/>
+                <prop id="50" list="0" val="Worm 2"/>
+                <prop id="52" list="0" val="false"/>
+                <prop id="53" list="0" val="Worm"/>
+                <prop id="54" list="0" val="Worm 2"/>
+                <prop id="55" list="0" val="false"/>
+                <prop id="56" list="0" val="false"/>
+                <prop id="57" list="0" val="false"/>
+                <prop id="58" list="0" val="false"/>
+                <prop id="60" list="0" val="false"/>
+                <prop id="62" list="0" val="0.2"/>
+                <prop id="63" list="0" val="50"/>
+            </s>
+        </snippets>
     </actor>
-    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="925" id="1" name="Worm" shared="false" width="925">
-        <anim across="2" down="1" durations="500,500" height="925" id="0" loop="true" name="Worm" numframes="2" originx="25" originy="25" sync="false" version="2" width="1850">
-            <poly data="4,0,0,50,0,50,50,0,50" density="0.1" fric="0.2" gid="-1000" id="0" name="Worm" rest="0.0" sensor="false"/>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="120" id="1" name="Worm" shared="false" width="120">
+        <anim across="1" down="1" durations="100" height="120" id="0" loop="true" name="Worm" numframes="1" originx="25" originy="25" sync="false" version="2" width="120">
+            <poly data="4,32,20,82,20,82,90,32,90" density="0.1" fric="0.2" gid="-1000" id="0" name="Box" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="120" id="1" loop="true" name="Worm 2" numframes="1" originx="60" originy="60" sync="false" version="2" width="120">
+            <poly data="4,33,21,83,21,83,91,33,91" density="0.1" fric="0.2" gid="-1000" id="0" name="Box" rest="0.0" sensor="false"/>
         </anim>
     </sprite>
 </pack>
